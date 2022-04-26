@@ -1,8 +1,8 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 
 function App() {
-  let [counter, changeCounter] = useState(1);
+  let [counter, changeCounter] = useState(2);
+
   window.changeCounter = changeCounter;
   return (
     <div>
@@ -11,5 +11,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
